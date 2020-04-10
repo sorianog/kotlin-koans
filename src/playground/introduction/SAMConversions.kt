@@ -1,4 +1,4 @@
-package playground
+package playground.introduction
 
 import java.util.*
 

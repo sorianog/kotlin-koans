@@ -1,4 +1,4 @@
-package playground
+package playground.introduction
 /*
 * Data classes
 * https://play.kotlinlang.org/koans/Introduction/Data%20classes/Task.kt
@@ -11,5 +11,8 @@ fun main() {
 data class Person(val name: String, val age: Int)
 
 fun getPeople(): List<Person> {
-    return listOf(Person("Alice", 29), Person("Bob", 31))
+    return listOf(
+        Person("Alice", 29),
+        Person("Bob", 31)
+    )
 }

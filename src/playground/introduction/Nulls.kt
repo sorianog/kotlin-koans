@@ -1,4 +1,4 @@
-package playground
+package playground.introduction
 
 /*
 * Nullable types
@@ -7,8 +7,16 @@ package playground
 
 fun main() {
     val mailer = TestMailer()
-    sendMessageToClient(Client(null), null, mailer)
-    sendMessageToClient(Client(PersonalInfo("test@email.com")), "Test message", mailer)
+    sendMessageToClient(
+        Client(
+            null
+        ), null, mailer
+    )
+    sendMessageToClient(
+        Client(
+            PersonalInfo("test@email.com")
+        ), "Test message", mailer
+    )
 }
 
 fun sendMessageToClient(client: Client?, message: String?, mailer: Mailer) {

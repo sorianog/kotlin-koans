@@ -1,4 +1,4 @@
-package playground
+package playground.introduction
 /*
 * Strings
 * https://play.kotlinlang.org/koans/Introduction/Strings/Task.kt
@@ -9,4 +9,4 @@ fun main() {
 }
 
 val month = "(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)"
-fun getPattern(): String = """\d{2}\ ${month} \d{4}"""
+fun getPattern(): String = """\d{2}\ $month \d{4}"""

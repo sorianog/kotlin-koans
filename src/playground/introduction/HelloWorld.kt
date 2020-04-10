@@ -1,4 +1,4 @@
-package playground
+package playground.introduction
 /*
 * Simple Functions
 * Hello, World!

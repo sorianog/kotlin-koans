@@ -1,4 +1,4 @@
-package playground
+package playground.introduction
 
 /*
 * Extension functions
@@ -13,7 +13,9 @@ fun main() {
     println("Pair.r() Test: ${pair.r() is RationalNumber}")
 }
 
-fun Int.r(): RationalNumber = RationalNumber(this, 1)
-fun Pair<Int, Int>.r(): RationalNumber = RationalNumber(first, second)
+fun Int.r(): RationalNumber =
+    RationalNumber(this, 1)
+fun Pair<Int, Int>.r(): RationalNumber =
+    RationalNumber(first, second)
 
 data class RationalNumber(val numerator: Int, val denominator: Int)

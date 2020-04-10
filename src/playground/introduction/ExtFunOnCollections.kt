@@ -1,4 +1,4 @@
-package playground
+package playground.introduction
 
 /*
 * Extension functions on collections

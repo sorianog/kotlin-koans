@@ -1,4 +1,4 @@
-package playground
+package playground.introduction
 /*
 * Default Arguments
 * https://play.kotlinlang.org/koans/Introduction/Named%20arguments/Task.kt

@@ -1,4 +1,4 @@
-package playground
+package playground.introduction
 /*
 * Lambdas
 * https://play.kotlinlang.org/koans/Introduction/Lambdas/Task.kt
